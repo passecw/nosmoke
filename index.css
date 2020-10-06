@@ -1,0 +1,24 @@
+h1, h3, div {
+    text-align: center;
+}
+
+
+p {
+    margin-top: 40px;
+}
+
+input {
+    width: 80px;
+}
+
+.startDate {
+    width: 170px;
+}
+
+.submit {
+    margin-top: 30px;
+}
+
+.nosmoke {
+    margin-top: 20px;
+}

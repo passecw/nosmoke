@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>No Smoke!!</title>
+</head>
+<body>
+    <h1>담배-수명 계산기</h1>
+    <h3>금연상담전화 1544-9030</h3>
+    <div>
+        <h4>솔직하게 답해주세요.</h4>
+        <p>하루에(평균)</p>
+        <form>
+            <input type="number" value="0" min="0" class="x20x10"/>보루
+            <input type="number" value="0" min="0" class="x20"/>갑
+            <input type="number" value="0" min="0" class="x1"/>개피 핀다.
+            <p>언제부터?</p>
+                <input type="date" name="시작일" class="startDate">부터 폈다.<br>
+                <input type="submit" value="결과보기" class="submit">
+        </form>
+    </div>
+    <div>
+        <p>-결과 출력 화면-</p>
+        <br>
+        <div class="result"></div>
+        <div class="nosmoke"></div>
+        <br>
+        <p><strong>*담배-수명 계산기는 궐련담배 기준, 담배 한 보루에 10갑(=200개피), 한 갑에 20개피, 1개피에 수명 5분<a href="https://www.fnnews.com/news/201912280701319499" target="_blank">(출처)</a>을 기준으로 계산합니다.</strong></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
